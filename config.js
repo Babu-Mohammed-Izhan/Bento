@@ -11,26 +11,26 @@ const CONFIG = {
   // └─┘┴ ┴└─┘┴└─┘└─┘
 
   // General
-  name: 'John',
+  name: "Izhan",
   imageBackground: false,
   openInNewTab: true,
-  twelveHourFormat: false,
+  twelveHourFormat: true,
 
   // Greetings
-  greetingMorning: 'Good morning!',
-  greetingAfternoon: 'Good afternoon,',
-  greetingEvening: 'Good evening,',
-  greetingNight: 'Go to Sleep!',
+  greetingMorning: "Good morning!",
+  greetingAfternoon: "Good afternoon,",
+  greetingEvening: "Good evening,",
+  greetingNight: "Go to Sleep!",
 
   // Weather
-  weatherKey: 'InsertYourAPIKeyHere123456',
-  weatherIcons: 'OneDark', // 'Nord', 'Dark', 'White'
-  weatherUnit: 'C', // 'F', 'C'
-  language: 'en', // More languages in https://openweathermap.org/current#multi
+  weatherKey: "aa7b4cfeeadb9036821b23f5e6012c15",
+  weatherIcons: "OneDark", // 'Nord', 'Dark', 'White'
+  weatherUnit: "C", // 'F', 'C'
+  language: "en", // More languages in https://openweathermap.org/current#multi
 
   trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
-  defaultLatitude: '37.775',
-  defaultLongitude: '-122.419',
+  defaultLatitude: "37.775",
+  defaultLongitude: "-122.419",
 
   // ┌─┐┌─┐┬─┐┌┬┐┌─┐
   // │  ├─┤├┬┘ ││└─┐
@@ -39,40 +39,40 @@ const CONFIG = {
   // Links
   cards: [
     {
-      id: '1',
-      name: 'Github',
-      icon: 'github',
-      link: 'https://github.com/',
+      id: "1",
+      name: "Github",
+      icon: "github",
+      link: "https://github.com/Babu-Mohammed-Izhan",
     },
     {
-      id: '2',
-      name: 'Mail',
-      icon: 'mail',
-      link: 'https://mail.protonmail.com/',
+      id: "2",
+      name: "Mail",
+      icon: "mail",
+      link: "https://gmail.com/",
     },
     {
-      id: '3',
-      name: 'Todoist',
-      icon: 'trello',
-      link: 'https://calendar.google.com/calendar/r',
+      id: "3",
+      name: "Trello",
+      icon: "trello",
+      link: "https://trello.com/",
     },
     {
-      id: '4',
-      name: 'Calendar',
-      icon: 'calendar',
-      link: 'https://calendar.google.com/calendar/r',
+      id: "4",
+      name: "Calendar",
+      icon: "calendar",
+      link: "https://calendar.google.com/calendar/r",
     },
     {
-      id: '5',
-      name: 'Reddit',
-      icon: 'bookmark',
-      link: 'https://reddit.com',
+      id: "5",
+      name: "Meet",
+      icon: "video",
+      link: "https://meet.google.com/",
     },
     {
-      id: '6',
-      name: 'Odysee',
-      icon: 'youtube',
-      link: 'https://odysee.com/',
+      id: "6",
+      name: "Youtube",
+      icon: "youtube",
+      link: "https://youtube.com/",
     },
   ],
 
@@ -81,45 +81,45 @@ const CONFIG = {
   // ┴─┘┴└─┘ ┴ └─┘
 
   //Icons
-  firstListIcon: 'music',
-  secondListIcon: 'coffee',
+  firstListIcon: "music",
+  secondListIcon: "coffee",
 
   // Links
   lists: {
     firstList: [
       {
-        name: 'Inspirational',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        name: "Anime Openings",
+        link: "https://www.youtube.com/watch?v=Mn7Bv8rGRzg",
       },
       {
-        name: 'Classic',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        name: "Lo-Fi",
+        link: "https://www.youtube.com/watch?v=1gSe78TIEEk",
       },
       {
-        name: 'Oldies',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        name: "JPop",
+        link: "https://www.youtube.com/watch?v=N0lwQ3NjcKQ",
       },
       {
-        name: 'Rock',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        name: "Japanese Songs",
+        link: "https://www.youtube.com/watch?v=-Lx6-QgTRpw",
       },
     ],
     secondList: [
       {
-        name: 'Linkedin',
-        link: 'https://linkedin.com/',
+        name: "Linkedin",
+        link: "https://linkedin.com/",
       },
       {
-        name: 'Figma',
-        link: 'https://figma.com/',
+        name: "Coding Interview University",
+        link: "https://github.com/jwasham/coding-interview-university",
       },
       {
-        name: 'Dribbble',
-        link: 'https://dribbble.com',
+        name: "Web 3.0",
+        link: "https://github.com/web3community/blockchain-dev-path",
       },
       {
-        name: 'Telegram',
-        link: 'https://webk.telegram.org',
+        name: "RoadMap to a Good Developer",
+        link: "https://webk.telegram.org",
       },
     ],
   },
