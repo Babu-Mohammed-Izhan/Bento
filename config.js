@@ -58,9 +58,9 @@ const CONFIG = {
     },
     {
       id: "4",
-      name: "Calendar",
-      icon: "calendar",
-      link: "https://calendar.google.com/calendar/r",
+      name: "Bookmarks",
+      icon: "bookmark",
+      link: "chrome://bookmarks/?id=3",
     },
     {
       id: "5",
