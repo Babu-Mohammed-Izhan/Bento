@@ -58,9 +58,9 @@ const CONFIG = {
     },
     {
       id: "4",
-      name: "Bookmarks",
-      icon: "bookmark",
-      link: "chrome://bookmarks/?id=3",
+      name: "Twitter",
+      icon: "twitter",
+      link: "https://twitter.com/babu_izhan",
     },
     {
       id: "5",
